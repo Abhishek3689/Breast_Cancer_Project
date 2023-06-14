@@ -1,0 +1,4 @@
+[ 2023-06-14 16:16:09,157 ] 25 root - INFO - Data Ingestion is inititated
+[ 2023-06-14 16:16:18,833 ] 33 root - INFO - Database and collection is selected
+[ 2023-06-14 16:16:23,137 ] 37 root - INFO - Dataframe has been retrieved from MongoDB
+[ 2023-06-14 16:16:23,238 ] 42 root - INFO - Files is saved in system
