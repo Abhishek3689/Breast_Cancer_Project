@@ -1,0 +1,4 @@
+[ 2023-06-14 12:26:42,766 ] 14 root - INFO - Uploading Data is initiated
+[ 2023-06-14 12:26:52,537 ] 18 root - INFO - Connection with mongodb is established
+[ 2023-06-14 12:27:17,324 ] 31 root - INFO - DataFrame has been created
+[ 2023-06-14 12:27:22,436 ] 40 root - INFO - Data has been uploaded in Mongodb
