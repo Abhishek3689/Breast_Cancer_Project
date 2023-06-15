@@ -16,7 +16,8 @@ def save_object(filepath,obj):
     
 def load_object(filepath):
     with open(filepath,'rb') as file_obj:
-        pickle.load(file_obj)
+       return pickle.load(file_obj)
+
 
 def Evaluate_model(models,X_train,X_test,y_train,y_test):
     report={}

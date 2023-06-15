@@ -1,0 +1,61 @@
+<html>
+<body>    
+<head>
+    <title> Cancer Classification</title>
+    <link rel='stylesheet' href='static/style.css'>
+</head>
+<h1>Welcome to Breast Cancer Detection Page</h1>
+<form action='/predict_disease' method="post">
+    <label><p>Enter Different Parameter Values</p></label>
+    <label for='mean texture'>mean texture :</label>
+    <input type='text' name='mean texture' id='mean texture' placeholder='enter float value' required='required'><br><br>
+    <label for='mean smoothness'>mean smoothness  :</label>
+    <input type='text' name='mean smoothness' id='mean smoothness' placeholder='enter float value' required='required'><br><br>
+    <label for='mean compactness'>mean compactness     :</label>
+    <input type='text' name='mean compactness' id='mean compactness' placeholder='enter float value' required='required'><br><br>
+    <label for='mean concave points'>mean concave points   :</label>
+    <input type='text' name='mean concave points' id='mean concave points' placeholder='enter float value'required='required'><br><br>
+    <label for='mean symmetry'>mean symmetry  :</label>
+    <input type='text' name='mean symmetry' id='mean symmetry' placeholder='enter float value' required='required'><br><br>
+    <label for='mean fractal dimension'>mean fractal dimension  :</label>
+    <input type='text' name='mean fractal dimension' id='mean fractal dimension' placeholder='enter float value' required='required'><br><br>
+    <label for='texture error'>texture error :</label>
+    <input type='text' name='texture error'id='texture error' placeholder='enter float value' required='required'><br><br>
+    <label for='area error'>area error  :</label>
+    <input type='text' name='area error' id='area error' placeholder='enter float value 'required='required'><br><br>
+    <label for='smoothness error'>smoothness error  :</label>
+    <input type='text' name='smoothness error' id ='smoothness error' placeholder='enter float value'required='required'/><br><br>
+    <label for='compactness error'>compactness error  :</label>
+    <input type='text' name='compactness error' id ='compactness error' placeholder='enter float value'required='required'/><br><br>
+    <label for='concavity error'>concavity error  :</label>
+    <input type='text' name='concavity error' id ='concavity error' placeholder='enter float value'required='required'/><br><br>
+    <label for='concave points error'>concave points error  :</label>
+    <input type='text' name='concave points error' id ='concave points error' placeholder='enter float value'required='required'/><br><br>
+    <label for='symmetry error'>symmetry error  :</label>
+    <input type='text' name='symmetry error' id ='symmetry error' placeholder='enter float value'required='required'/><br><br>
+    <label for='fractal dimension error'>fractal dimension error  :</label>
+    <input type='text' name='fractal dimension error' id ='fractal dimension error' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst texture'>worst texture  :</label>
+    <input type='text' name='worst texture' id ='worst texture' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst area'>worst area  :</label>
+    <input type='text' name='worst area' id ='worst area' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst smoothness'>worst smoothness  :</label>
+    <input type='text' name='worst smoothness' id ='worst smoothness' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst compactness'>worst compactness  :</label>
+    <input type='text' name='worst compactness' id ='worst compactness' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst concavity'>worst concavity  :</label>
+    <input type='text' name='worst concavity' id ='worst concavity' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst concave points'>worst concave points  :</label>
+    <input type='text' name='worst concave points' id ='worst concave points' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst symmetry'>worst symmetry  :</label>
+    <input type='text' name='worst symmetry' id ='worst symmetry' placeholder='enter float value'required='required'/><br><br>
+    <label for='worst fractal dimension'>worst fractal dimension  :</label>
+    <input type='text' name='worst fractal dimension' id ='worst fractal dimension' placeholder='enter float value'required='required'/><br><br>
+
+    <input type='submit' value='Predict'>
+
+</form>
+
+<h2>Breast Cancer  is {{results}}</h2>
+</body>
+</html>
