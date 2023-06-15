@@ -1,0 +1,9 @@
+[ 2023-06-14 18:00:38,952 ] 25 root - INFO - Data Ingestion is inititated
+[ 2023-06-14 18:00:48,223 ] 33 root - INFO - Database and collection is selected
+[ 2023-06-14 18:00:51,960 ] 37 root - INFO - Dataframe has been retrieved from MongoDB
+[ 2023-06-14 18:00:52,147 ] 42 root - INFO - Files is saved in system
+[ 2023-06-14 18:00:52,162 ] 58 root - INFO - Preprocessor object creation is initiated
+[ 2023-06-14 18:00:52,266 ] 78 root - INFO - cleaned trained and test data is obtained
+[ 2023-06-14 18:00:52,266 ] 23 root - INFO - Pipeline preprocessor is initiated
+[ 2023-06-14 18:00:52,266 ] 50 root - INFO - prprocessor pipeline is completed
+[ 2023-06-14 18:00:52,299 ] 92 root - INFO - Error occured in getting preprocessor object
